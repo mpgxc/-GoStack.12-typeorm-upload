@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@types/csv-parse": "^1.2.2",
-    "csv-parse": "^4.8.8",
+    "@types/csvtojson": "^1.1.5",
+    "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
