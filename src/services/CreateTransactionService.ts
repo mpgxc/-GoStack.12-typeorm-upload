@@ -42,7 +42,6 @@ class CreateTransactionService {
 
         let category_id;
 
-        // Caso category não exista crie...
         if (!categoryExists) {
             const categoryObj = categoryRepository.create({
                 title: category,
