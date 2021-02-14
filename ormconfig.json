@@ -6,7 +6,7 @@
   "password": "docker",
   "database": "gostack_desafio06",
   "entities": [
-    "./src/domain/models/*.ts"
+    "./src/domain/entities/*.ts"
   ],
   "migrations": [
     "./src/infra/database/migrations/*.ts"
